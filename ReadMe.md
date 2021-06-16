@@ -12,7 +12,7 @@ Worldseed
 How it works
 
 ----The save file will be located at the same place the game stores it's log file-----
-        ---C:\Users\YOURCOMPUTERSUSERNAME\AppData\LocalLow\Dani\Muck----
+---C:\Users\YOURCOMPUTERSUSERNAME\AppData\LocalLow\Dani\Muck----
 
 Upon loading in the first time if there is no save file already it will create a "Dummy" file for convenience in code and as a guide/reference for anyone looking at the file. If a save already exists it will load everything from it and do what is needed to setup the player accordingly.
 
