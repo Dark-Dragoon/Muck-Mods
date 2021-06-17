@@ -1,4 +1,4 @@
-Version 1.0 of my Saving mod for Muck
+Version 1.1 of my Saving mod for Muck
 
 This version currently only saves the player, no world objects, npcs etc yet, as well as no unlocks for now.
 
@@ -20,3 +20,12 @@ Upon loading in the first time if there is no save file already it will create a
 Upon pausing and pushing the "Leave Game" button it will save all the currntly saved info to a new player file. It will take the existing save file, which will be the blank "Dummy" file if you have never saved before, and it will add "Backup" to the file name. 
 If for some reason you corrupt your save you can rename the backup.
 
+---CHANGELOG---
+
+---1.1.0---   
+
+--Major bug fixes, slight code cleanup--
+
+-Fixed bug with item amounts often not loading properly if you have multiple of the same item.
+-Fixed armor not actually equipping upon load.
+-Cleaned up some code slighty by using Tuples in preperation for world object data. (Thanks for the suggestion Flarfo!)
